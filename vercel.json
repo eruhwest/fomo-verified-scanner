@@ -1,0 +1,9 @@
+{
+  "installCommand": "npm install --omit=dev --no-audit --no-fund",
+  "crons": [
+    {
+      "path": "/api/cron/scan",
+      "schedule": "15 12 * * *"
+    }
+  ]
+}
